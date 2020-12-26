@@ -58,15 +58,17 @@ html_theme_options = {
 
     # Specify a base_url used to generate sitemap.xml. If not
     # specified, then no sitemap will be built.
-    #'base_url': '',
+    'base_url': 'https://backdoor-collective.org/docs/',
 
     # Set the color and the accent color
     #'color_primary': '#000000',
     #'color_primary': 'blue',
     'color_primary': 'blue-grey',
+    #'color_primary': 'grey',
     #'color_primary': 'indigo',
     #'color_primary': 'light-blue',
     #'color_accent': 'light-green',
+    #'color_accent': 'light-blue',
 
     # Set the repo location to get a badge with stats
     'repo_url': 'https://github.com/backdoor-collective/documentation',
@@ -77,7 +79,7 @@ html_theme_options = {
     # If False, expand all TOC entries
     #'globaltoc_collapse': False,
     # If True, show hidden TOC entries
-    #'globaltoc_includehidden': False,
+    'globaltoc_includehidden': True,
 
     "master_doc": False,
     "nav_links": [
@@ -96,6 +98,8 @@ html_theme_options = {
 
 
 def setup(app):
+
+    # Configure recommonmark.
     app.add_config_value('recommonmark_config', {
             #'url_resolver': lambda url: github_doc_root + url,
             'enable_auto_toc_tree': True,
