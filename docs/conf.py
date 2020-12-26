@@ -37,6 +37,12 @@ extensions = [
 autosectionlabel_prefix_document = True
 todo_include_todos = True
 
+
+# -- Options for HTML output ----------------------------------------------
+html_theme = 'sphinx_material'
+html_static_path = ['_static']
+
+
 # -- Options for Sphinx Material theme ---------------------------------------
 
 html_show_sourcelink = True
@@ -45,7 +51,6 @@ html_sidebars = {
 }
 
 # Required theme setup
-html_theme = 'sphinx_material'
 html_theme_path = sphinx_material.html_theme_path()
 html_context = sphinx_material.get_html_context()
 html_logo = '_static/img/backdoor-collective-logo.png'
@@ -98,6 +103,9 @@ html_theme_options = {
 
 
 def setup(app):
+
+    # Custom stylesheet.
+    app.add_css_file("css/backdoor-collective-sphinx.css")
 
     # Configure recommonmark.
     app.add_config_value('recommonmark_config', {
