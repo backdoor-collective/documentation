@@ -66,12 +66,14 @@ We are running data pipelines on two machines.
 
 
 ## Exhibition
-
-For enjoying more screenshots and details about the projects and tools,
-you are welcome to visit the [Panodata Overview].
+For enjoying more screenshots and details about the projects and tools
+beyond the tiny exhibition below, you are welcome to visit the [Panodata Overview].
 
 [Panodata Overview]: https://community.panodata.org/t/overview/120
 
+### Screenshots
+Some Grafana screenshots to get a rough impression how data looks like
+after coming out of the pipeline.
 
 ![image](https://community.panodata.org/uploads/default/original/1X/e2f1671157c4aadf0c06d488fddb7d691b2e3946.png)
 
