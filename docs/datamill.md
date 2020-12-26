@@ -56,6 +56,7 @@ you are welcome to visit the [Panodata Overview].
 
 #### Grafana
 - [Grafana Map Panel] - Fork of the original Grafana Worldmap Panel with improved convenience, robustness and features.
+- [grafana-pandas-datasource] - Grafana Python datasource - using Pandas for timeseries and table data.
 - [grafanimate] - Animate timeseries data with Grafana.
 - [grafana-wtf] - Grep through all Grafana entities in the spirit of git-wtf.
 
@@ -71,5 +72,6 @@ you are welcome to visit the [Panodata Overview].
 [mqttwarn]: https://github.com/jpmens/mqttwarn
 
 [Grafana Map Panel]: https://community.panodata.org/t/grafana-map-panel/121
+[grafana-pandas-datasource]: https://github.com/panodata/grafana-pandas-datasource
 [grafanimate]: https://github.com/panodata/grafanimate
 [grafana-wtf]: https://github.com/panodata/grafana-wtf
