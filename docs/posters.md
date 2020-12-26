@@ -3,6 +3,11 @@
 ![](https://ptrace.gafam.info/unofficial/img/color/lqdn-gafam-poster-en-color-5x1-1280x.png)
 
 ## About
+La Quadrature du Net started the GAFAM poster campaign around November 2017
+in order to support their call for donations. After getting hooked at the
+34C3 congress, we picked this up in January 2018 to support the lovely
+people of LQDN in covering the whole world.
+
 - [https://www.laquadrature.net/en/2018/04/18/class_action_gafam/](https://www.laquadrature.net/en/2018/04/18/class_action_gafam/)
 - [https://gafam.laquadrature.net/](https://gafam.laquadrature.net/)
 - [https://www.youtube.com/watch?v=XovsXnva10c](https://www.youtube.com/watch?v=XovsXnva10c)
