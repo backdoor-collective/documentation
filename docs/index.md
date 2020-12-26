@@ -16,6 +16,7 @@ take a cyberBeer with us.
 * [Bees](bees.md)
 * [Posters](posters.md)
 * [Tech](tech.md)
+* [Datamill](datamill.md)
 
 ---
 
