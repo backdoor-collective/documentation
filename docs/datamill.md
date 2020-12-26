@@ -23,24 +23,12 @@ We are always happy to see like-minded people joining us.
 
 ## Live data
 We are running data pipelines on two machines.
-- https://weather.hiveeyes.org/
-- https://swarm.hiveeyes.org/
-
-## Exhibition
-![image](https://community.panodata.org/uploads/default/original/1X/e2f1671157c4aadf0c06d488fddb7d691b2e3946.png)
-
-![image](https://ptrace.hiveeyes.org/2018-12-28_wetter-dwd-temperatur-sonne-niederschlag-karten-cdc.gif)
-![image](https://ptrace.hiveeyes.org/2018-12-26_ldi-coverage.gif)
-
-For enjoying more screenshots and details about the projects and tools,
-you are welcome to visit the [Panodata Overview].
-
-[Panodata Overview]: https://community.panodata.org/t/overview/120
-
+- [https://weather.hiveeyes.org/](https://weather.hiveeyes.org/)
+- [https://swarm.hiveeyes.org/](https://swarm.hiveeyes.org/)
 
 ## Tools
 
-#### Earth observations / Open Data
+#### Earth observations
 - [Wetterdienst] - Python Toolset For Accessing Weather Data From German Weather Service.
 - [GribMagic] - A generic weather forecast downloader.
 - [Luftdatenpumpe] - Process live and historical data from luftdaten.info, IRCELINE and OpenAQ. Filter by station-id, sensor-id and sensor-type, apply reverse geocoding, store into timeseries and RDBMS databases, publish to MQTT, output as JSON or visualize in Grafana. 
@@ -75,3 +63,34 @@ you are welcome to visit the [Panodata Overview].
 [grafana-pandas-datasource]: https://github.com/panodata/grafana-pandas-datasource
 [grafanimate]: https://github.com/panodata/grafanimate
 [grafana-wtf]: https://github.com/panodata/grafana-wtf
+
+
+## Exhibition
+
+For enjoying more screenshots and details about the projects and tools,
+you are welcome to visit the [Panodata Overview].
+
+[Panodata Overview]: https://community.panodata.org/t/overview/120
+
+
+![image](https://community.panodata.org/uploads/default/original/1X/e2f1671157c4aadf0c06d488fddb7d691b2e3946.png)
+
+![image](https://ptrace.hiveeyes.org/2018-12-28_wetter-dwd-temperatur-sonne-niederschlag-karten-cdc.gif)
+![image](https://ptrace.hiveeyes.org/2018-12-26_ldi-coverage.gif)
+
+### Presentation at the Geospatial Sensing Conference (GSC2019) in Münster
+We are happy to have been invited to talk about the things we are doing
+around environmental data collection, processing and visualization within
+the lightning talks section of a GIS-related conference in 2019.
+The audience was all ears about the capabilities of InfluxDB and Grafana.
+
+* More information about the talk.
+
+  [Talking about the Hiveeyes project and some Panodata technologies at the 5th Geospatial Sensor Web Conference in Münster, 3. September 2019](https://community.panodata.org/t/talking-about-the-hiveeyes-project-and-some-panodata-technologies-at-the-5th-geospatial-sensor-web-conference-in-munster-3-september-2019/18)
+
+
+* The presentation slides.
+
+  [Fancy synthesizing of bee-, weather- and environmental-data with Grafana and InfluxDB](https://weather.hiveeyes.org/pubs/20190903_52northV_Motl_Mehldau_-_Fancy_Synthesizing_of_Environmental_Data/)
+
+![image](https://user-images.githubusercontent.com/453543/103153863-164fea00-4794-11eb-8129-8277c8d7bade.png)
