@@ -30,13 +30,12 @@ extensions = [
     "sphinx_material",
     "sphinx.ext.doctest",
     "sphinx.ext.autosectionlabel",
+    "sphinx.ext.todo",
     "recommonmark",
     ]
 
-plantuml = 'java -jar ./plantuml.jar'
-plantuml_syntax_error_image = True
-
 autosectionlabel_prefix_document = True
+todo_include_todos = True
 
 # -- Options for Sphinx Material theme ---------------------------------------
 
