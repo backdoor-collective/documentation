@@ -21,4 +21,5 @@ virtualenv-docs: setup-virtualenv
 	@test -e $(sphinx) || $(pip) --quiet install --requirement requirements.txt --verbose
 
 docs-html: virtualenv-docs
+	touch docs/index.md
 	export SPHINXBUILD="`pwd`/$(sphinx)"; cd docs; make html
