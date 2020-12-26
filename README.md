@@ -1,5 +1,13 @@
-### How to build
+### About
+This is the documentation about the activities of the Backdoor Collective.
+
+When submitting updates to this repository, they will automatically get published
+to [https://backdoor-collective.org/docs/](https://backdoor-collective.org/docs/).
+
+### How to build locally
 ```
+git clone https://github.com/backdoor-collective/documentation backdoor-collective-documentation
+cd backdoor-collective-documentation
 make docs-html
 open docs/_build/html/index.html
 ```
